@@ -5,7 +5,7 @@ ul.slides li.slide {
     position: relative;
     z-index: 50;
     -webkit-transform: translate3d(0,0,0);
-    margin:0;
+    margin:0 0;
     padding: 0;
     overflow: hidden;
     height: 650px;
@@ -106,7 +106,8 @@ z-index: 50;
 height: 400px;
 pointer-events: auto;
 }
-.card {
+
+.contact-card {
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
