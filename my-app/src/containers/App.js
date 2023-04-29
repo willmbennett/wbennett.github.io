@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Home from "../pages/Home";
 import Blog from "../pages/Blog"
 import '../stylesheets/App.css'
+import Calendly from "../components/Calendly";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/" element={<Home />} />
           </Routes>
+          <Calendly />
         </div>
     </div>
     

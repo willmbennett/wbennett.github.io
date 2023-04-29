@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="topnav">
-      <div class="row">
-        <div class="column topnav-left">
-          <Link to="blog" class="nav-option" >Blog</Link>      
+    <div className="topnav">
+      <div className="row">
+        <div className="column topnav-left">
+          <Link to="blog" className="nav-option" >Blog</Link>      
         </div>
-        <div class="column topnav-center">
-          <Link to="/" class="nav-option" >William Bennett</Link>
+        <div className="column topnav-center">
+          <Link to="/" className="nav-option" >William Bennett</Link>
         </div>
-        <div class="column topnav-right">
-          <Link to="https://www.linkedin.com/in/willmbennett" class="nav-option fa fa-linkedin" ></Link>
-          <Link to="https://github.com/willmbennett" class="nav-option fa fa-github" ></Link>
+        <div className="column topnav-right">
+          <Link to="https://www.linkedin.com/in/willmbennett" className="nav-option fa fa-linkedin" ></Link>
+          <Link to="https://github.com/willmbennett" className="nav-option fa fa-github" ></Link>
         </div>
       </div>
     </div>

@@ -8,15 +8,15 @@ ul.slides li.slide {
     margin:0 0;
     padding: 0;
     overflow: hidden;
-    height: 650px;
+    height: 90vh;
 }
 
-li {
+li.slide {
     display: list-item;
     text-align: -webkit-match-parent;
 }
 
-ul {
+ul.slides {
 -webkit-margin-before: 1em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
@@ -26,6 +26,13 @@ padding:0;
 margin-bottom: 0;
 height: 100%;
 }
+
+/*-- About Me --*/
+.welcome {
+    font-size: extra-large;
+}
+
+
 /*-- About Me --*/
 .about-me {
 background-color: #fff;
@@ -35,6 +42,7 @@ width: 100%;
 height: 100%;
 z-index: 50;
 pointer-events: auto;
+font-size: large;
 }
 
 .profile-image {
@@ -97,27 +105,15 @@ margin-top: 0px;
 
 /*--Contact Section--*/
 
-.contact{
-background-color: #fff;
-padding: 75px 0px;
-position: relative;
-width: 100%;
-z-index: 50;
-height: 400px;
-pointer-events: auto;
-}
-
-.contact-card {
+.card {
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
-}
-
-.contact-card {
-position: relative;
-width: 50%;
+    position: relative;
+    width: 50%;
+    font-size: large;
 }
 
 @media screen and (max-width: 600px) {
